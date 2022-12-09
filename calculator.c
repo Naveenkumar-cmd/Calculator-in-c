@@ -15,27 +15,27 @@ int main() {
     switch(n){
       
       case 1:
-      sum = a+b;
-      printf("sum =%f",sum);
-      break;
+        sum = a+b;
+        printf("sum =%f",sum);
+        break;
       
       case 2:
-      diff = a-b;
-      printf("diff = %f",diff);
-      break;
+        diff = a-b;
+        printf("diff = %f",diff);
+        break;
       
       case 3:
-      mul = a*b;
-      printf("multiply =%f",mul);
-      break;
+        mul = a*b;
+        printf("multiply =%f",mul);
+        break;
       
       case 4:
-      div = a/b;
-      printf("division=%f",div);
-      break;
+        div = a/b;
+        printf("division=%f",div);
+        break;
       
       default:
-      printf("enter the valid option only.");
+        printf("enter the valid option only.");
       
            
   }
